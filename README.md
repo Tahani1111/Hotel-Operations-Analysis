@@ -25,6 +25,37 @@ There are 9-dimension tables and 1 fact table. The dimension tables are all join
 to-many relationship.
 ![](model.png)
 
+## Visualization
+The visualizations present key insights into customer behavior, booking trends, and revenue performance. Through interactive charts, they support data-driven decisions to optimize hotel operations and marketing strategies.
+
+![](Firstvis2.png)  
+### Top KPIs (Cards at the Top)
+- Cancelation Rate % (37%):
+Shows that 37% of all bookings were canceled – a significant portion, which could point to a customer trust or policy issue.
+
+- Total Bookings (119.39K):
+  Indicates the total number of bookings made across the dataset.
+
+- Total Revenue (31.57M):
+Reflects the total income generated from all bookings.
+
+Origin of Top 5 Customers
+Insight:
+Portugal leads by far with 49K bookings, followed by the UK and France. This shows where most guests are coming from and can guide targeted marketing efforts.
+
+
+
+
+
+
+
+
+
+![](secondvis2.png)
+
+
+
+
 
 
 
