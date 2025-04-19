@@ -21,7 +21,7 @@ The dataset was cleaned by standardizing column names, fixing inconsistencies in
 
 ## Modeling 
 The model is a star schema.
-There are 5-dimension tables and 1 fact table. The dimension tables are all joined to the fact table
+There are 9-dimension tables and 1 fact table. The dimension tables are all joined to the fact table one 
 to-many relationship.
 ![](model.png)
 
