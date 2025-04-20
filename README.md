@@ -29,6 +29,9 @@ to-many relationship.
 The visualizations present key insights into customer behavior, booking trends, and revenue performance. Through interactive charts, they support data-driven decisions to optimize hotel operations and marketing strategies.
 
 ![](Firstvis2.png)  
+### Slicers (on the left panel)
+These allow users to filter data by hotel type, year, month, market segment, deposit type, customer type, and country – enabling interactive and dynamic exploration of the dashboard.
+
 ### Top KPIs (Cards at the Top)
 - Cancelation Rate % (37%):
 Shows that 37% of all bookings were canceled – a significant portion, which could point to a customer trust or policy issue.
@@ -40,19 +43,38 @@ Shows that 37% of all bookings were canceled – a significant portion, which co
 Reflects the total income generated from all bookings.
 
 ### Origin of Top 5 Customers
-Insight:
-Portugal leads by far with 49K bookings, followed by the UK and France. This shows where most guests are coming from and can guide targeted marketing efforts.
+This bar chart gives us a clear picture of where our top five customers are coming from. It looks like Portugal is by far our biggest source of bookings among this group, with a whopping 49,000+ bookings. The United Kingdom comes in second, but with a significantly lower number, around 12,000 bookings. Following the UK, we have France with approximately 10,000 bookings, then Spain with about 9,000, and finally Germany rounding out the top five with around 7,000 bookings. This really highlights Portugal as a key market for us within our top customer base.
 
-Bookings, Cancellations & Revenue Trends by Year
-Insight:
-The dashboard "Bookings, Cancellations & Revenue Trends by Year" highlights fluctuations in bookings and revenue from 2014 to 2017. Bookings peaked in 2015 (~40K) alongside the highest revenue (~15M), followed by a significant drop in 2016 (~20K bookings, ~5M revenue), possibly due to increased cancellations or market challenges. A partial recovery occurred in 2017, with bookings rising slightly (~30K estimated) and revenue rebounding to ~10M, suggesting improved operational efficiency or pricing strategies. The strong correlation between bookings and revenue indicates that maintaining booking volumes is crucial for revenue growth, while addressing cancellations could further stabilize performance.
+### Bookings, Cancellations & Revenue Trends by Year
+From 2014 to 2016, we observed strong year-over-year growth in total bookings and revenue, culminating in a peak in 2016 with approximately 58,000 bookings and over $14.6 million in revenue. However, 2016 also recorded the highest number of cancellations, exceeding 21,000. In 2017, both bookings and revenue declined, accompanied by a decrease in cancellations. This trend indicates a potential shift in business dynamics following the 2016 peak.
 
+### Revenues by Reserved Room Type & Market Segment
 
+Combining the insights from the market segment and room type revenue analyses provides a clearer view of the key drivers behind our overall performance, the "Online TA" segment emerged as the top revenue contributor. When we break down revenue by reserved room type, Room Type "A" stands out significantly, generating $18.3 million, making it the single largest contributor to total revenue.
 
-
-
+### Canceled vs Occupied Bookings 
+This pie chart shows us the proportion of bookings that were canceled versus those that were not. The black slice represents the canceled bookings, which make up 37.04% of the total. On the other hand, the larger gray slice shows the non-canceled bookings, accounting for the majority at 62.96%. So, for every 100 bookings, roughly 37 were canceled, and about 63 proceeded as planned.
 
 ![](secondvis2.png)
+
+This horizontal bar chart displays the average lead time (in days) for bookings across various market segments. Lead time refers to the duration between when a booking is made and the actual check-in date.
+
+**Key Observations:**
+
+* **Groups:** Exhibit the longest average lead time, approaching 200 days. This indicates that group bookings are typically made well in advance.
+* **Offline TA/TO (Offline Travel Agencies/Tour Operators):** Show a significant average lead time, in the range of 140-150 days.
+* **Online TA (Online Travel Agencies):** Have a shorter average lead time compared to offline channels, averaging between 90 and 100 days.
+* **Direct:** Bookings made directly have a noticeably shorter average lead time, around 50-60 days.
+* **Corporate and Complimentary:** These segments show the shortest average lead times, both under 30 days, suggesting last-minute booking patterns.
+* **Aviation:** This segment has the shortest average lead time among all categories.
+
+**Implications for System Design (Potential Considerations for GitHub Documentation):**
+
+* **Forecasting and Capacity Planning:** The varying lead times across segments can inform forecasting models and capacity planning strategies. Systems might need to accommodate the long-term visibility required for group bookings versus the more immediate nature of direct or corporate bookings.
+* **Real-time Inventory Management:** For segments with shorter lead times, real-time inventory updates and availability management are crucial to avoid overbooking.
+* **Communication and Confirmation Processes:** Different lead times might necessitate varied communication and confirmation workflows. For long lead-time bookings, automated reminders or check-ins closer to the arrival date could be beneficial.
+* **Reporting and Analytics:** Tracking and analyzing lead times by market segment can provide valuable insights into booking patterns and help optimize marketing and sales efforts targeted at specific segments.
+
 
 
 
