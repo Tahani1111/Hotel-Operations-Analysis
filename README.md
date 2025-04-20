@@ -58,7 +58,26 @@ This pie chart shows us the proportion of bookings that were canceled versus tho
 ![](secondvis2.png)
 
 ### Average Lead Time by Market Segment
-This horizontal bar chart displays the average lead time (in days) for bookings across various market segments. Group and offline travel agency bookings have the longest lead times, indicating early planning, while corporate, complimentary, and aviation bookings are often last-minute. Online and direct bookings fall in between. These patterns highlight the need for segment-specific strategies in forecasting, inventory management, and customer communication.
+This horizontal bar chart showes the average lead time (in days) for bookings across various market segments. Group and offline travel agency bookings have the longest lead times, indicating early planning, while corporate, complimentary, and aviation bookings are often last-minute. Online and direct bookings fall in between. These patterns highlight the need for segment-specific strategies in forecasting, inventory management, and customer communication.
+
+### TRepeated VS Non-Repeated Guest
+This pie chart shows us the breakdown between guests who have stayed with us before (repeated guests) and those who are new (not repeated guests). The very small white slice, only 3.19% of the pie, represents our repeated guests. The overwhelmingly large gray slice, making up 96.81%, represents guests who are staying with us for the first time. So, the vast majority of our guests are new visitors
+
+### Total Bookings by Customer Type
+
+This pie chart shows us the different types of customers who made bookings. The big gray part, which is 96.1%, represents "Transient" customers. This is the largest group. The small black slice, only 3.41%, represents "Contract" customers. So, most of our bookings come from individual, "Transient" customers, with a much smaller portion from "Contract" customers and a very small fraction from "Group" bookings.
+
+### Cancellation Rate % by Market Segment
+This bar chart shows us how often bookings get canceled for different types of customers, or "market segments." The longer the bar, the higher the percentage of cancellations. "Groups" have the highest cancellation rate by far. "Online TA" (Online Travel Agencies) also have a pretty high cancellation rate. "Offline TA/TO" (Offline Travel Agencies/Tour Operators) are next, with a slightly lower cancellation rate. Then, we see "Aviation" and "Corporate" bookings have lower cancellation rates compared to the top three.
+
+## Recommandation 
+- Reduce Group Cancellations: Figure out why groups cancel so much and try to fix it.
+- Look at Online Travel Agency Cancellations: See why bookings from sites like Expedia get canceled a lot.
+- Encourage Direct Bookings: People who book directly are less likely to cancel, so try to get more of those.
+- Keep Transient Guests Happy: Most of your bookings are from this group, so focus on them.
+- Get More Repeat Guests: Only a few people come back, so try to make them want to return.
+- Focus on Room Type "A": It makes the most money, so understand who books it and why.
+- Plan Ahead for Groups: They book far in advance, so use that time wisely.
 
 
 
