@@ -72,7 +72,7 @@ This bar chart shows us how often bookings get canceled for different types of c
 
 ## Recommandation 
 - Reduce Group Cancellations: Figure out why groups cancel so much and try to fix it.
-- Look at Online Travel Agency Cancellations: See why bookings from sites like Expedia get canceled a lot.
+- Look at Online Travel Agency Cancellations: See why bookings from sitesa are canceled 
 - Encourage Direct Bookings: People who book directly are less likely to cancel, so try to get more of those.
 - Keep Transient Guests Happy: Most of your bookings are from this group, so focus on them.
 - Get More Repeat Guests: Only a few people come back, so try to make them want to return.
