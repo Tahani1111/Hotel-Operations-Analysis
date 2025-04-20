@@ -57,26 +57,8 @@ This pie chart shows us the proportion of bookings that were canceled versus tho
 
 ![](secondvis2.png)
 
-This horizontal bar chart displays the average lead time (in days) for bookings across various market segments. Lead time refers to the duration between when a booking is made and the actual check-in date.
-
-**Key Observations:**
-
-* **Groups:** Exhibit the longest average lead time, approaching 200 days. This indicates that group bookings are typically made well in advance.
-* **Offline TA/TO (Offline Travel Agencies/Tour Operators):** Show a significant average lead time, in the range of 140-150 days.
-* **Online TA (Online Travel Agencies):** Have a shorter average lead time compared to offline channels, averaging between 90 and 100 days.
-* **Direct:** Bookings made directly have a noticeably shorter average lead time, around 50-60 days.
-* **Corporate and Complimentary:** These segments show the shortest average lead times, both under 30 days, suggesting last-minute booking patterns.
-* **Aviation:** This segment has the shortest average lead time among all categories.
-
-**Implications for System Design (Potential Considerations for GitHub Documentation):**
-
-* **Forecasting and Capacity Planning:** The varying lead times across segments can inform forecasting models and capacity planning strategies. Systems might need to accommodate the long-term visibility required for group bookings versus the more immediate nature of direct or corporate bookings.
-* **Real-time Inventory Management:** For segments with shorter lead times, real-time inventory updates and availability management are crucial to avoid overbooking.
-* **Communication and Confirmation Processes:** Different lead times might necessitate varied communication and confirmation workflows. For long lead-time bookings, automated reminders or check-ins closer to the arrival date could be beneficial.
-* **Reporting and Analytics:** Tracking and analyzing lead times by market segment can provide valuable insights into booking patterns and help optimize marketing and sales efforts targeted at specific segments.
-
-
-
+### Average Lead Time by Market Segment
+This horizontal bar chart displays the average lead time (in days) for bookings across various market segments. Group and offline travel agency bookings have the longest lead times, indicating early planning, while corporate, complimentary, and aviation bookings are often last-minute. Online and direct bookings fall in between. These patterns highlight the need for segment-specific strategies in forecasting, inventory management, and customer communication.
 
 
 
