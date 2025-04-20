@@ -39,12 +39,13 @@ Shows that 37% of all bookings were canceled – a significant portion, which co
 - Total Revenue (31.57M):
 Reflects the total income generated from all bookings.
 
-Origin of Top 5 Customers
+### Origin of Top 5 Customers
 Insight:
 Portugal leads by far with 49K bookings, followed by the UK and France. This shows where most guests are coming from and can guide targeted marketing efforts.
 
-
-
+Bookings, Cancellations & Revenue Trends by Year
+Insight:
+The dashboard "Bookings, Cancellations & Revenue Trends by Year" highlights fluctuations in bookings and revenue from 2014 to 2017. Bookings peaked in 2015 (~40K) alongside the highest revenue (~15M), followed by a significant drop in 2016 (~20K bookings, ~5M revenue), possibly due to increased cancellations or market challenges. A partial recovery occurred in 2017, with bookings rising slightly (~30K estimated) and revenue rebounding to ~10M, suggesting improved operational efficiency or pricing strategies. The strong correlation between bookings and revenue indicates that maintaining booking volumes is crucial for revenue growth, while addressing cancellations could further stabilize performance.
 
 
 
